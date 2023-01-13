@@ -34,7 +34,7 @@ app.get("/weather", (req, res) => {
 
 app.get("*", (req, res) => {
     res.render("404error", {
-        errormsg: 'We are sorry but the page you were looking for was not found!....'
+        errormsg: 'We are sorry the page you were looking for was not 😒found!....'
     });
 });
 
